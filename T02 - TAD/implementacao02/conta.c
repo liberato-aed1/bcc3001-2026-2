@@ -5,7 +5,7 @@
 #include "conta.h"
 
 Conta* conta_criar(int numero, char* titular) {
-    Conta* novo = (Conta*) malloc(sizeof(Conta));
+    Conta* novo = malloc(sizeof(Conta));
     novo->numero = numero;
     strcpy(novo->titular, titular);
     novo->saldo  = 0;
