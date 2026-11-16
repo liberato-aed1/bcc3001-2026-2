@@ -1,16 +1,20 @@
 #ifndef FILA_H
 #define FILA_H
 
-class Node {
-public:
-    int valor;
-    Node* prox;
+class No {
+    public:
+        int dado;
+        No* prox;
+        No(int dado){
+            this->dado = dado;
+            this->prox = nullptr;
+        }
 };
 
 class Fila {
 private:
-    Node* primeiro;
-    Node* ultimo;
+    No* inicio;
+    No* fim;
     int quantidade;
 
 public:
