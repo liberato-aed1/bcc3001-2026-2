@@ -9,6 +9,18 @@ Lista::Lista(){
 
 
 bool Lista::insere(int posicao, int valor){
+    
+    
+    if (this->quantidade == 0) {  // Inserção na lista vazia
+
+    } else if (posicao == 0){     // Inserção na primeira posição
+
+    } else if (posicao == this->quantidade){   // Inserção na última posição
+
+    } else {
+        
+    }
+
 
 }
 
