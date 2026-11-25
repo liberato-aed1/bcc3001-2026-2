@@ -25,6 +25,7 @@ private:
      * @return Ponteiro para o nó, ou nullptr se posição inválida.
      */
     No* getNode(int posicao);
+    
 
 public:
     Lista();
